@@ -1,0 +1,19 @@
+[project]
+name = "chat2tasks"
+version = "0.1.0"
+description = "Turn exported WhatsApp / Telegram chats into organized task lists (Arabic + English)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "AHMED HUSSAM" }]
+keywords = ["whatsapp", "telegram", "tasks", "arabic", "productivity", "automation"]
+
+[project.scripts]
+chat2tasks = "chat2tasks:main"
+
+[tool.setuptools]
+py-modules = ["chat2tasks"]
+
+[project.urls]
+Homepage = "https://github.com/AHMED-HUSSAM-10/chat2tasks"
+Issues = "https://github.com/AHMED-HUSSAM-10/chat2tasks/issues"
